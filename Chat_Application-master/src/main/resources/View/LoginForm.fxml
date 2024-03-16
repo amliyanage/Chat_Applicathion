@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" styleClass="back" stylesheets="@../asstes/Style/LoginCss.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.AM.Controller.LoginFormController">
+   <children>
+      <ImageView fitHeight="112.0" fitWidth="112.0" layoutX="294.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/img/user.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="Username" layoutX="199.0" layoutY="237.0" promptText="Enter Username" styleClass="UserFiled" />
+      <JFXButton fx:id="button" layoutX="295.0" layoutY="311.0" onAction="#loginBtnOnAction" text="Login In" />
+   </children>
+</AnchorPane>

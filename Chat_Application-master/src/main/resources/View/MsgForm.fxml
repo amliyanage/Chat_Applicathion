@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="res_background" stylesheets="@../asstes/Style/msg.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.AM.MSG.SendMsgFormController">
+   <children>
+      <ImageView fitHeight="73.0" fitWidth="286.0" layoutX="20.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/img/send.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="msg" layoutX="37.0" layoutY="4.0" prefHeight="37.0" prefWidth="266.0" text="Label">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

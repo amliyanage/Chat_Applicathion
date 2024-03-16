@@ -1,0 +1,7 @@
+.res_background{
+    -fx-min-width: 577px;
+    -fx-max-width: 577px;
+    -fx-min-height: 47px;
+    -fx-max-height: 47px;
+    -fx-flex-shrink: 0;
+}

@@ -1,0 +1,41 @@
+.roll{
+    -fx-min-width: 600px;
+    -fx-max-width: 600px;
+    -fx-min-height: 564px;
+    -fx-max-height: 564px;
+    -fx-flex-shrink: 0;
+    -fx-background-color: #C0FFAA;
+}
+.fild{
+    -fx-min-width: 429px;
+    -fx-max-width: 429px;
+    -fx-min-height: 47px;
+    -fx-max-height: 47px;
+    -fx-flex-shrink: 0;
+    -fx-font-family: "Roboto";
+    -fx-font-size: 18px;
+    -fx-font-style: normal;
+    -fx-font-weight: 500;
+    -fx-border-radius: 12px;
+    -fx-border-width: 1.5px;
+    -fx-border-color: #8E8E93;
+    -fx-background-color: #FFF;
+}
+.send{
+    -fx-min-width: 100px;
+    -fx-max-width: 100px;
+    -fx-min-height: 47px;
+    -fx-max-height: 47px;
+    -fx-flex-shrink: 0;
+    -fx-border-radius: 12px;
+    -fx-border-width: 1px;
+    -fx-border-color: #0051A9;
+    -fx-background-color: #007AFF;
+    -fx-background-radius: 12px;
+    -fx-text-fill: #FFF;
+    -fx-font-family: "Roboto";
+    -fx-font-size: 13px;
+    -fx-font-style: normal;
+    -fx-font-weight: 500;
+    -fx-line-height: 1.0;
+}

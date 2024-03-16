@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="res_background" stylesheets="@../asstes/Style/msg.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.AM.MSG.ResiveMsgFormController">
+   <children>
+      <ImageView fitHeight="48.0" fitWidth="286.0" layoutX="292.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/img/resive.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="msg" layoutX="301.0" layoutY="6.0" prefHeight="36.0" prefWidth="259.0" text="Label">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

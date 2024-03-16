@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="700.0" prefWidth="600.0" stylesheets="@../asstes/Style/DashBoard.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.AM.Controller.DashBordFormController">
+   <children>
+      <ScrollPane prefHeight="564.0" prefWidth="600.0" styleClass="roll">
+         <content>
+            <VBox fx:id="Chat_box" prefHeight="562.0" prefWidth="587.0" styleClass="roll" />
+         </content>
+      </ScrollPane>
+      <TextField fx:id="filed_msg" layoutX="26.0" layoutY="599.0" styleClass="fild" />
+      <JFXButton fx:id="btn_send" layoutX="486.0" layoutY="599.0" onAction="#sendbtnOnActhion" styleClass="send" text="Send" />
+      <ImageView fitHeight="19.0" fitWidth="22.0" layoutX="419.0" layoutY="613.0" onMouseClicked="#importImagebrnOnActhion" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asstes/img/Camera.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
